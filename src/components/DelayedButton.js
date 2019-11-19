@@ -3,7 +3,7 @@ export default class DelayedButton extends React.Component{
 
   fire = (e) => {
     console.log(this.props.delay)
-    // e.persist()
+    e.persist()
     setTimeout(this.props.onDelayedClick, this.props.delay, e)
   }
 
