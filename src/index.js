@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import DelayedButton from './components/DelayedButton'
+// import CoordinatesButton from './components/CoordinatesButton'
 
 // These must be defined for code to work in browser
 import CoordinatesButton from './components/CoordinatesButton';
